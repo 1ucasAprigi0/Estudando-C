@@ -4,15 +4,15 @@ int main(){
     int conta;
     float saldoInicial, cobranca, creditos, limite, novoSaldo;
 
-    printf("Numero da conta (-1 para finalizar): ");
+    printf("Entre com o numero da conta (-1 para finalizar): ");
     scanf("%d%*c", &conta);
 
     while(conta != -1){
-        printf("Saldo Inicial: ");
+        printf("Entre com o saldo inicial: ");
         scanf("%f%*c", &saldoInicial);
-        printf("Total de cobranças: ");
+        printf("Entre com o total de cobranças: ");
         scanf("%f%*c", &cobranca);
-        printf("Total de créditos: ");
+        printf("Entre com o total de créditos: ");
         scanf("%f%*c", &creditos);
         printf("Limite de credito: ");
         scanf("%f%*c", &limite);
@@ -25,7 +25,7 @@ int main(){
             printf("Saldo: %.2f\n", novoSaldo);
             printf("Limite de Credito Excedido.\n");
         }
-        printf("\nNumero da conta (-1 para finalizar): ");
+        printf("\nEntre com o numero da conta (-1 para finalizar): ");
         scanf("%d%*c", &conta);
 
     }   
