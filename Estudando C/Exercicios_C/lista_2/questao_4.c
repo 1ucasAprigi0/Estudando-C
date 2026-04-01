@@ -9,7 +9,6 @@ int main() {
     for(dev = 0; dev < 5; dev++) {
         for(m = 0; m < MES; m++) {
             printf("Entre com os bugs do mês %d do desenvolvedor %d: ", m+1, dev+1);
-
             scanf("%d", &bugs);
             
             if(dev == 0){
